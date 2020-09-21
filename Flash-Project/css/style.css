@@ -1,0 +1,66 @@
+body {
+    background: #333;
+    color: #fff;
+}
+.logo{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    border-bottom:#008ed7 3px solid;
+    opacity: .8;
+}
+
+#home-header{
+    background: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+#home-header .dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: #000000af;
+}
+#home-header .home-inner{
+    padding-top: 150px;
+}
+#home-header .form-group input{
+    background: ivory;
+}
+
+#home-header .col-lg-4 .bg-primary{
+    opacity: .8;
+    
+}
+
+#home-header .fas, #create-body .fas{
+    background: ivory;
+    color: #008ed7;
+    border-radius: 5px;
+    padding: 5px;
+}
+#home-header .fas:hover{
+    background: #008ed7;
+    color: ivory;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#explore-body .fas, #share-body .fas{
+    background: #333;
+    border-radius: 5px;
+    color: ivory;
+    padding: 5px;
+}
+#explore-body .fas:hover{
+    background: #333;
+    color: #008ed7;
+    border-radius: 5px;
+    padding: 5px;
+}
